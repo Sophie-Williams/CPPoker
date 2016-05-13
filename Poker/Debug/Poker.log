@@ -1,0 +1,39 @@
+﻿Build started 3/29/2016 12:44:30 PM.
+     1>Project "D:\Dev\ICS4U\Poker\Poker\Poker.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Poker.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ai.cpp dealer.cpp deck.cpp player.cpp
+         deck.cpp
+         Generating Code...
+         Compiling...
+         ai.cpp
+     1>d:\dev\ics4u\poker\poker\ai.cpp(73): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+     1>d:\dev\ics4u\poker\poker\ai.cpp(77): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+     1>d:\dev\ics4u\poker\poker\ai.cpp(81): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+     1>d:\dev\ics4u\poker\poker\ai.cpp(87): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+     1>d:\dev\ics4u\poker\poker\ai.cpp(90): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+     1>d:\dev\ics4u\poker\poker\ai.cpp(95): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+     1>d:\dev\ics4u\poker\poker\ai.cpp(98): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+     1>d:\dev\ics4u\poker\poker\ai.cpp(106): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+     1>d:\dev\ics4u\poker\poker\ai.cpp(111): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+     1>d:\dev\ics4u\poker\poker\ai.cpp(127): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+     1>d:\dev\ics4u\poker\poker\ai.cpp(133): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>d:\dev\ics4u\poker\poker\ai.cpp(133): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+     1>d:\dev\ics4u\poker\poker\ai.cpp(186): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         player.cpp
+         dealer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dev\ICS4U\Poker\Debug\Poker.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Dev\ICS4U\Poker\Debug\Poker.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dev\ICS4U\Poker\Debug\Poker.lib" /MACHINE:X86 Debug\ai.obj
+         Debug\card.obj
+         Debug\dealer.obj
+         Debug\deck.obj
+         Debug\player.obj
+         Debug\Poker.obj
+         Debug\stdafx.obj
+         Poker.vcxproj -> D:\Dev\ICS4U\Poker\Debug\Poker.exe
+     1>Done Building Project "D:\Dev\ICS4U\Poker\Poker\Poker.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.98
